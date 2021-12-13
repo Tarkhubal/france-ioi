@@ -27,3 +27,39 @@ droite()
 bas()
 bas()
 droite()
+
+
+#Empilement de cylindres
+from robot import *
+
+deplacer(1, 2)
+deplacer(1, 3)
+deplacer(2, 3)
+deplacer(1, 2)
+deplacer(3, 1)
+deplacer(3, 2)
+deplacer(1, 2)
+deplacer(1, 3)
+deplacer(2, 3)
+deplacer(2, 1)
+deplacer(3, 1)
+deplacer(2, 3)
+deplacer(1, 2)
+deplacer(1, 3)
+deplacer(2, 3)
+
+
+#Recette secrète
+from robot import *
+
+remplir(3)
+transferer(3, 5)
+remplir(3)
+transferer(3, 5)
+vider(5)
+transferer(3, 5)
+remplir(3)
+transferer(3, 5)
+
+
+#
