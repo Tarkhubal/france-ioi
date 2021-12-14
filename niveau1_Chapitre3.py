@@ -38,3 +38,18 @@ print("I")
 print("V")
 print("I")
 print("I")
+
+
+#Décollage de fusée
+compte = 100
+for loop in range(101):
+   print(compte)
+   compte -= 1
+print("Décollage !")
+
+
+#Invasion de batraciens
+nbCrapauds = 1337
+for loop in range(12):
+   nbCrapauds *= 2
+print(nbCrapauds)
