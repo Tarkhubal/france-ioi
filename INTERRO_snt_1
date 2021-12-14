@@ -1,4 +1,4 @@
-Python question 1 :
+**Python question 1 :**
 
 prenom = "Pierre"
 nom = "Dupont"
@@ -8,7 +8,7 @@ print("Bonjour", prenom, nom, "! Tu es né en", anneeDeNaissance)
 
 
 
-Python question 2 :
+**Python question 2 :**
 
 prenom = "Pierre"
 nom = "Dupont"
@@ -19,10 +19,18 @@ age = 2021 - anneeDeNaissance
 print("Bonjour", prenom, nom, "! Tu as", age, "ans")
 
 
-Python question 3 :
+**Python question 3 :**
 
 adultes = int(input("Combien de places adultes ? "))
 enfants = int(input("Combien de places enfants ? "))
 prix = (4 * enfants) + (8 * adultes)
 
 print("Le prix à payer est de", prix)
+
+
+
+**Feuille**
+Exo 1 :
+Il faut faire des calculs, normalement le résultat de x c'est 25 et celui de y c'est 21 et tu dois mettre "21" dans le code à gauche
+
+Exo 2 :
