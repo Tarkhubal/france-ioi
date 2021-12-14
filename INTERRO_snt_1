@@ -41,3 +41,5 @@ Et l'autre ça la seule colonne qu'il reste
 
 
 Exo 3 :
+Pour afficher la variable Bonjour c'est     print(Bonjour)
+Pour afficher le texte Bonjour c'est        print("Bonjour")
