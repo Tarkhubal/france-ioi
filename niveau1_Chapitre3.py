@@ -87,7 +87,8 @@ for loop in range(9):
    largeurArête += 2
 print(nbCubes)
 
-#Table de multiplicationligne = 1
+#Table de multiplication
+ligne = 1
 for loop in range(20):
    colonne = 1
    for loop in range(20):
