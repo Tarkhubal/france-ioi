@@ -63,3 +63,12 @@ else:
    print("L'équipe 2 a un avantage")
 print("Poids total pour l'équipe 1 :", totalÉquipe1)
 print("Poids total pour l'équipe 2 :", totalÉquipe2)
+
+
+#Mot de passe du village
+mdp = int(input())
+
+if mdp == 64741:
+   print("Bon festin !")
+else:
+   print("Allez-vous en !")
