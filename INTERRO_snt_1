@@ -1,2 +1,28 @@
 Python question 1 :
 
+prenom = "Pierre"
+nom = "Dupont"
+anneeDeNaissance = 2001
+
+print("Bonjour", prenom, nom, "! Tu es né en", anneeDeNaissance)
+
+
+
+Python question 2 :
+
+prenom = "Pierre"
+nom = "Dupont"
+anneeDeNaissance = 2001
+
+age = 2021 - anneeDeNaissance
+
+print("Bonjour", prenom, nom, "! Tu as", age, "ans")
+
+
+Python question 3 :
+
+adultes = int(input("Combien de places adultes ? "))
+enfants = int(input("Combien de places enfants ? "))
+prix = (4 * enfants) + (8 * adultes)
+
+print("Le prix à payer est de", prix)
