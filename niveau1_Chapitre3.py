@@ -53,3 +53,27 @@ nbCrapauds = 1337
 for loop in range(12):
    nbCrapauds *= 2
 print(nbCrapauds)
+
+
+#Kermesse
+nbPlus = 1
+result = 0
+tour = 0
+for loop in range(50):
+   tour += 1
+   result += tour
+   print(result)
+
+
+#Course avec les enfants
+from robot import *
+
+nbTour = 1
+for loop in range(10):
+   for loop in range(nbTour):
+      droite()
+   ramasser()
+   for loop in range(nbTour):
+      gauche()
+   deposer()
+   nbTour += 1
