@@ -44,3 +44,27 @@ largeurEmplacement = int(input())
 for iVendeur in range(int(input()) + 1):
    print(position)
    position += largeurEmplacement
+
+
+#Bétail
+rep = 0
+for loop in range(20):
+   rep = int(input()) + rep
+print(rep)
+
+
+#Socles pour statues
+Hmax = int(input())
+Hmin = int(input())
+rep = 0
+for loop in range(Hmax - Hmin + 1):
+   rep += Hmin * Hmin
+   Hmin += 1
+print(rep)
+
+
+#Le plus beau Karva
+for loop in range(int(input())):
+   poids = int(input())
+   âge = int(input())
+   print(int(input()) * int(input()) + poids)
