@@ -96,3 +96,17 @@ longueur = yMax - yMin
 p = 2*(largeur + longueur)
 
 print(p)
+
+
+#Le juste prix
+nbMarchands = int(input())
+minPrix = 1000 * 1000
+posMinPrix = -1
+pos = 1
+for loop in range(nbMarchands):
+   prix = int(input())
+   if prix <= minPrix:
+      minPrix = prix
+      posMinPrix = pos
+   pos += 1
+print(posMinPrix)
