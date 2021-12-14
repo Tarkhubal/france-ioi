@@ -77,3 +77,21 @@ for loop in range(10):
       gauche()
    deposer()
    nbTour += 1
+
+
+#Construction d'une pyramide
+nbCubes = 0
+largeurArête = 1
+for loop in range(9):
+   nbCubes += largeurArête**3
+   largeurArête += 2
+print(nbCubes)
+
+#Table de multiplicationligne = 1
+for loop in range(20):
+   colonne = 1
+   for loop in range(20):
+      print(colonne * ligne, end = " ")
+      colonne += 1
+   print()
+   ligne += 1
